@@ -1,0 +1,42 @@
+[
+    {
+        "user" : "21520419",
+        "password" : "21520419",
+        "avt" : "./images/avt1.jpg",
+        "name" : "Phạm Ngọc Quí",
+        "email" : "21520419@gm.uit.edu.vn",
+        "mssv" : "21520419",
+        "class" : "CNTT2021",
+        "phone" : "18000419",
+        "year" : "3",
+        "subject": 
+        [
+            {"subjectName" : "IT001"},
+            {"subjectName" : "IT002"},
+            {"subjectName" : "IT003"},
+            {"subjectName" : "IT004"},
+            {"subjectName" : "IT005"},
+            {"subjectName" : "IT006"}
+        ]
+    },
+    {
+        "user" : "21520390",
+        "password" : "21520390",
+        "avt" : "./images/avt2.jpg",
+        "name" : "Trần Nhựt Phát",
+        "email" : "21520390@gm.uit.edu.vn",
+        "mssv" : "21520390",
+        "class" : "CNTT2021",
+        "phone" : "18000390",
+        "year" : "3",
+        "subject": 
+        [
+            {"subjectName" : "IE001"},
+            {"subjectName" : "IE002"},
+            {"subjectName" : "IE003"},
+            {"subjectName" : "IE004"},
+            {"subjectName" : "IE005"},
+            {"subjectName" : "IE006"}
+        ]
+    }
+]

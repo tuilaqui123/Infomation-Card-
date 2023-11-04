@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <link
+        rel="stylesheet"
+        href="./fontawesome-free-6.3.0-web/fontawsome/css/all.min.css"
+    />
+    <title>JQUERY DEMO</title>
+</head>
+<body>
+    <div id="display">
+        <div class="login-main">
+            <div class="Title">
+                <h1>LOGIN</h1>
+            </div>
+            <form class="inputContainer">
+                <input type="text" placeholder="MSSV" required id="user">
+                <input type="password" placeholder="PASSWORD" required id="password">
+            </form> 
+            <div class="buttonContainer" id="LoginButton">
+                <button>
+                    <p>LOG IN</p>
+                </button>
+
+            </div>
+        </div>
+        <div class="main hidden" id="main">
+            <div class="imgContainer">
+                
+            </div>
+            <ul class="userButton">
+                <li class="btn" id="info">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Thông tin cá nhân</p>
+                </li>
+                <li class="btn" id="subject">
+                    <i class="fa-solid fa-book"></i>
+                    <p>Thông tin môn học</p>
+                </li>
+            </ul>
+            <div class="buttonContainer" >
+                <button id="LogoutButton">
+                    <p>LOG OUT</p>
+                </button>
+            </div>
+        </div>
+        <div class="secondary hidden" id="secondary">
+            <div id="content">
+                
+            </div>            
+            <div class="buttonContainer" >
+                <button id="close">
+                    <p>CLOSE</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
